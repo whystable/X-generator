@@ -5,6 +5,7 @@ import re
 import hashlib
 import hmac
 import secrets
+
 def generate_key(length):
     secret_key = secrets.token_bytes(16)
     random_message = secrets.token_bytes(32)
